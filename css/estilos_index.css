@@ -152,7 +152,7 @@ nav{
     background: #fff;
     margin-bottom: 30px;
     border-radius: 10px;
-    padding: 35px 45px 45px 40px;
+    padding: 3px 45px 15px 40px;
     transition: 0.5s;
     text-decoration: none;
 }
@@ -184,7 +184,7 @@ nav{
 }    
 .articulo>h3{
     font-size: 24px;
-    margin-top: 30px;
+    margin-top: 20px;
     
 }
 .articulo>p{
@@ -574,16 +574,16 @@ footer{
     }
     /* About Us */
     .articulo{
-        width: 100%;
+        width: 270px;
         /* padding: 45px 30px 40px 30px;  */
     }
-    .articulo h3{
+    /* .articulo h3{
         margin-left: 15px;
-    }
+    } */
        
     .articulo img{
-        height: 200px; 
-        margin-left: 15px;
+        height: 175px; 
+        /* margin-left: 10px; */
         /* margin-top: 15px; */
         /* padding-bottom: 20px;   */
         border-radius: 10px; 
