@@ -147,9 +147,11 @@ nav{
 
 .articulo{
     width: 38%;
+    /* width: 23%; */
     background: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 10px;
+    /* padding: 3px 45px 15px 40px; */
     padding: 15px 30px 60px 30px;
     transition: 0.5s;
 }
@@ -177,7 +179,9 @@ nav{
     
 }
 .articulo .icon1 img{
-    height: 95%;
+    height: 100%;
+    /* margin-bottom: 20px;    */
+    align-items: center;
     border-radius: 10px;
 }   
 
@@ -383,7 +387,7 @@ footer{
     border-color: #1fde82;
 }
 /* Breakpoints responsive */
-@media screen and (max-width:800px) {
+@media screen and (max-width:870px) {
     .titulo{
         font-size: 45px;
     }
@@ -404,7 +408,12 @@ footer{
     .articulo{
         width: 38%;
     }
-    
+    .articulo .icon1 img{
+        height: 160px;
+        /* margin-top: 15px; 
+        padding-bottom: 20px;   */
+        border-radius: 10px;
+    } 
     /* Questions */
     .questions{
         height: 720px;
@@ -450,7 +459,79 @@ footer{
         margin-bottom: 40px;
     }
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:718px) {
+    .titulo{
+        font-size: 45px;
+    }
+    .contenido-header{
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 720px;
+    }
+    .contenido-header>img{
+        width: 400px;
+    }
+    .textos-header{
+        margin: 0;
+    }
+   
+    /* About us */
+
+    .articulo{
+        width: 38%;
+    }
+    .articulo .icon1 img{
+        height: 145px;
+        /* margin-top: 15px; 
+        padding-bottom: 20px;   */
+        border-radius: 10px;
+    } 
+    /* Questions */
+    .questions{
+        height: 720px;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .questions>img{
+        width: 400px;
+    }
+    /* results */
+    .conten-results{
+        flex-direction: column-reverse;
+    }
+    .results-text>a{
+        margin-bottom: 60px;
+    }
+    .numbers{
+        width: 100%;
+    }
+    .results-text{
+        width: 100%;
+    }
+    /* Services */
+    .services{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .box-skills{
+        margin: 0 0 40px 0;
+    }
+    .box-skills h4{
+        width: 500px;
+    }
+    .services>img{
+        width: 400px;
+    }
+    /* Footer */
+    .footer{
+        justify-content:space-evenly ;
+    }
+    .partFooter{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:645px){
     .titulo{
         font-size: 30px;
     }
@@ -494,8 +575,14 @@ footer{
         display: block;
     }
     /* About Us */
+
+    .contenedor1 img{
+        height: 30px;
+    }
+
     .articulo{
-        width: 85%;
+        /* width: 85%; */
+        width: 65%;
     }
     .articulo img{
         height: 100px;
@@ -503,6 +590,104 @@ footer{
         /* padding-bottom: 20px;   */
         border-radius: 10px; 
     }
+    .articulo .icon1 img{
+        height: 160px;
+        /* margin-top: 15px; 
+        padding-bottom: 20px;   */
+        border-radius: 10px;
+    } 
+
+    /*  Questions */
+    .questions>img{
+        width: 300px;
+    }
+    /* results */
+    .numbers .number{
+        width: 95%;
+    }
+    .results-text h4{
+        font-size: 35px;
+    }
+    /* Services */
+
+    .services>img{
+        width: 300px;
+    }
+    .box-skills h4{
+        width: 100%;
+    }
+    /* Footer */
+    .partFooter{
+        width: 95%;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width:378px){
+    .titulo{
+        font-size: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .contenido-header{
+        height: 650px;
+    }
+    .nav{
+        padding:0 10px;
+    }
+    .contenido-header>img{
+        width: 290px;
+                
+    }
+    .enlaces-header{
+        
+        position: fixed;
+        background: #667db6;
+        background: #667db6;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100vh;
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;       
+        clip-path: circle(0.0% at 100% 0); 
+    }
+    .nav .menudos{
+        clip-path: circle(150% at 100% 0);
+    }
+    .nav .enlaces-header a{
+        color: #fff;
+    }
+    .hamburguer{
+        display: block;
+    }
+    /* About Us */
+
+    .contenedor1 img{
+        height: 30px;
+    }
+
+    .articulo{
+        /* width: 85%; */
+        width: 75%;
+    }
+    .articulo img{
+        height: 100px;
+        margin-top: 15px;
+        /* padding-bottom: 20px;   */
+        border-radius: 10px; 
+    }
+    .articulo .icon1 img{
+        height: 130px;
+        /* margin-top: 15px; 
+        padding-bottom: 20px;   */
+        border-radius: 10px;
+    } 
+
     /*  Questions */
     .questions>img{
         width: 300px;

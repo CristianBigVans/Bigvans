@@ -181,6 +181,7 @@ nav{
 }
 .articulo .icon1 img{
     height: 100%;
+    border-radius: 10px;
 }    
 .articulo>h3{
     font-size: 24px;
@@ -199,8 +200,7 @@ nav{
     height: 140px;
     margin-top: 15px;
     /* padding-bottom: 20px;   */
-    border-radius: 10px; 
-    
+    border-radius: 10px;    
 }
 /* .articulo>a{
     color: #5d6678;
@@ -482,6 +482,7 @@ footer{
     }
     .articulo img{
         height: 230px;
+        border-radius: 10px; 
     }
     
     /* Questions */
