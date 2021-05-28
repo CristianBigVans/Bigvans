@@ -131,7 +131,7 @@ nav{
     font-size: 50px;
 }
 
-/* Caracteristicas Furgonetas */
+/* About us */
 .about-us{
     background: #f2f2f2;
 }
@@ -176,132 +176,36 @@ nav{
 }
 .articulo .icon1{
     height: 200px;
-    margin-bottom: 10px;
+    
 }
 .articulo .icon1 img{
     height: 100%;
     /* margin-bottom: 20px;    */
     align-items: center;
     border-radius: 10px;
-    margin-bottom: 10px;
 } 
 .articulo .icon2{
-    margin-top :3px;
-    margin-bottom: 10px;
-}
-
+    margin-top :20px;
+}  
 .articulo .icon2 a{
     text-decoration: none;
-    color:#1d273b;   
+    color:#1d273b
 } 
 .articulo .icon2 img{
     height: 20px;
     width: 20px; 
-    
 }   
-.precioc1{
-    font-size:15px;
-    font-weight: bold;
-    display: inline-block;
-    padding: 5px 0;
-    /* width:100px; */
-    width:100px;
-    border:1px solid #c44a4a;
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
-    color:#fff;
-    background: #c44a4a;
-    margin-bottom: 3px;
-    margin-top: 10px;
-}
-.precio2 {
-    border: 0;
-    line-height: 2.5;
-    padding: 0 20px;
-    font-size: 15px;
-    text-align: center;
-    color: #fff;
-    text-shadow: 1px 1px 1px #000;
-    border-radius: 10px;
-    background-color: rgba(220, 0, 0, 1);
-    background-image: linear-gradient(to top left,
-                                      rgba(0, 0, 0, .2),
-                                      rgba(0, 0, 0, .2) 30%,
-                                      rgba(0, 0, 0, 0));
-    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
-                inset -2px -2px 3px rgba(0, 0, 0, .6);
-}
 
-.precio2:hover {
-    background-color: rgba(255, 0, 0, 1);
-}
+/* POP-UP--FIN----------------------------------------------------------------------- */
 
-.precio2:active {
-    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
-                inset 2px 2px 3px rgba(0, 0, 0, .6);
-}
-
-/* POP-UP------------------------------------------- */
-.cta{
-    font-size:12px;
-    display: inline-block;
-    padding: 3px 0;
-    /* width:100px; */
-    width:60px;
-    border:1px solid #1fde82;
-    border-radius: 50px;
-    text-align: center;
-    text-decoration: none;
-    color:#fff;
-    background: #1fde82;
-    margin-bottom: 10px;
-}
-.modal-container{
-    opacity: 0;
-    visibility: hidden;
-    position: fixed;
-    z-index: 1000;
-    width: 100%;
-    height:100vh;
-    top:0;
-    left:0;
-    background: rgb(0,0,0,.5);
-    display: flex;
-    justify-content: center;
+/* .icono_titulo{
+    height: 60px;
     align-items: center;
 }
-.modal{
-    width:40%;
-    height: 30%;
-    background: #fff;
-    text-align:center;
-    position:relative;
-    transition:transform 1s;
-    transform:translateY(0%);
-    border-radius: 10px;
-    /* display:flex; */
-    /* flex-direction: column;  */
-    /* justify-content: space-evenly; */
-}
-.close{
-    position:absolute;
-    top:5px;
-    right:5px;
-    display: inline-block;
-    width: 25px;
-    height:25px;
-    background: #c44a4a;
-    color: #fff;
-    line-height: 25px;
-    cursor: pointer;
-}
-.modal-close{
-    transform:translateY(-250%); 
-}  
-/* fin POPUP------------------------------------------ */
-
-
+.icono_titulo img{
+    height: 100%;
+    align-items: center;
+} */
  
 .articulo>h3{
     font-size: 24px;
@@ -512,7 +416,7 @@ footer{
         margin: 0;
     }
    
-    /* Caracteristicas furgonetas */
+    /* About us */
 
     .articulo{
         width: 38%;
@@ -523,14 +427,9 @@ footer{
         padding-bottom: 20px;   */
         border-radius: 10px;
     } 
-    .articulo .icon1{  
-        margin-bottom: 0;  
-    } 
     .articulo .icon2{
         margin-top :0;
-        
     }  
-
     /* Questions */
     .questions{
         height: 720px;
@@ -813,7 +712,6 @@ footer{
     .articulo .icon2{
         margin-top :0;
     }  
-    
     /*  Questions */
     .questions>img{
         width: 300px;
